@@ -36,7 +36,10 @@ export default function Hero() {
           <div className="mt-6 text-sm text-gray-600 space-y-1">
             <p>
               Phone:{" "}
-              <a className="text-red-700 font-semibold" href="tel:+917066738510">
+              <a
+                className="text-red-700 font-semibold"
+                href="tel:+917066738510"
+              >
                 +91 70667 38510
               </a>
             </p>
@@ -58,9 +61,11 @@ export default function Hero() {
             <Image
               src="/doctor.jpeg"
               alt="Dr. Karan Thakkar"
-              fill
+              // fill
               className="object-cover"
-              sizes="(max-width: 768px) 224px, 288px"
+              // sizes="(max-width: 768px) 224px, 288px"
+              width={288}
+              height={288}
               priority
             />
           </div>
