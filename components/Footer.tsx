@@ -6,21 +6,38 @@ export default function Footer() {
           <p className="text-white font-semibold text-base">
             Dr. Karan Thakkar, MD
           </p>
-          <p className="mt-1">Physician · Internal Medicine · Cardiology</p>
+          <p className="mt-1">
+            Physician · General Medicine · Rheumatology Interest ·
+            Echocardiographer
+          </p>
         </div>
 
         <div className="text-center">
           <p>
             📧{" "}
             <a
-              href="mailto:contact@drkaranthakkar.com"
+              href="mailto:drkaranthakkar@gmail.com"
               className="hover:text-white transition"
             >
-              contact@drkaranthakkar.com
+              drkaranthakkar@gmail.com
             </a>
           </p>
           <p className="mt-1">
-            📞 For appointments, contact individual hospitals above
+            📞{" "}
+            <a href="tel:+917066738510" className="hover:text-white transition">
+              +91 70667 38510
+            </a>
+          </p>
+          <p className="mt-1">
+            📷{" "}
+            <a
+              href="https://instagram.com/drkaranthakkar"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white transition"
+            >
+              instagram.com/drkaranthakkar
+            </a>
           </p>
         </div>
 

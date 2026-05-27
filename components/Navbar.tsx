@@ -7,6 +7,7 @@ const links = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Mission", href: "#mission" },
+  { label: "Case Reports", href: "#case-reports" },
   { label: "Hospital Hours", href: "#hours" },
   { label: "Contact", href: "#contact" },
 ];
@@ -20,7 +21,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="#home"
-          className="text-lg font-semibold text-blue-700 tracking-tight"
+          className="text-lg font-semibold text-red-700 tracking-tight"
         >
           Dr. Karan Thakkar
         </Link>
@@ -31,7 +32,7 @@ export default function Navbar() {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="hover:text-blue-700 transition-colors"
+                className="hover:text-red-700 transition-colors"
               >
                 {l.label}
               </a>
@@ -78,7 +79,7 @@ export default function Navbar() {
               <a
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="block hover:text-blue-700 transition-colors"
+                className="block hover:text-red-700 transition-colors"
               >
                 {l.label}
               </a>
