@@ -40,10 +40,11 @@ export default function Hero() {
         <div className="flex-shrink-0">
           <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-blue-200 shadow-xl relative">
             <Image
-              src="/doctor.jpg"
+              src="/doctor.jpeg"
               alt="Dr. Karan Thakkar"
-              fill
               className="object-cover"
+              width={288}
+              height={288}
               priority
             />
           </div>
