@@ -31,7 +31,7 @@ export default function Footer() {
           <p className="mt-1">
             📷{" "}
             <a
-              href="https://instagram.com/drkaranthakkar"
+              href="https://www.instagram.com/dr.karan_thakkar"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white transition"
